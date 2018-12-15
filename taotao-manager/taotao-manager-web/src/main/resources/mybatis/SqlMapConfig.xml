@@ -6,9 +6,9 @@
 
     <!--配置分页插件-->
     <plugins>
-        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+        <plugin interceptor="com.github.pagehelper.PageHelper">
             <!--指定使用的数据库-->
-            <!--<property name="dialect" value="mysql"></property>-->
+            <property name="dialect" value="mysql"></property>
         </plugin>
     </plugins>
 </configuration>
